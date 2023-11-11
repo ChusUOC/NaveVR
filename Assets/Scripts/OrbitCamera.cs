@@ -64,7 +64,7 @@ public class ControlCamara : MonoBehaviour
     void OnDisable()
     {
         // When switched off, put everything back the way we found it.
-        Cursor.visible = _wasCursorVisible;
+        //Cursor.visible = _wasCursorVisible;
         Cursor.lockState = _previousLockState;
         transform.localRotation = _initialOrientation;
     }
